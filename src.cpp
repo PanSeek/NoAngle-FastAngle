@@ -1,4 +1,4 @@
-#include <Windows.h>
+#include <windows.h>
 
 auto __cdecl fill(unsigned __int32 address, unsigned __int8 value, unsigned __int32 size) -> void {
 	DWORD oldProt{ 0 };
